@@ -1,10 +1,10 @@
 import sun.applet.Main;
+import sun.security.x509.SubjectAlternativeNameExtension;
 
 import java.util.Scanner;
 public class MainSentient {
     //global variables
     public double count = 0;
-    public double SubName0;
 
     public static void main(String args[]) {
         //this is my AI project (0.0.1)
@@ -69,6 +69,9 @@ public class MainSentient {
                             //option no
                             jump.val_option();
                         }
+                    }else{
+                        //option no
+                        jump.val_option();
                     }
                 }
             }
@@ -78,5 +81,8 @@ public class MainSentient {
 
         System.out.println("What's your favourite colour?");
         jump_0.colourpreferance();
+    }
+    public String extrapolate(){
+        return  String.format("");
     }
 }
