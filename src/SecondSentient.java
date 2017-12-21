@@ -8,6 +8,7 @@ public class SecondSentient extends MainSentient {
 
     public void colourpreferance() {
         Scanner and = new Scanner(System.in);
+        new SecondSentient();
 
         //local variables
         String colourpref = and.nextLine();

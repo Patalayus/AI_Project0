@@ -1,6 +1,3 @@
-import sun.applet.Main;
-import sun.security.x509.SubjectAlternativeNameExtension;
-
 import java.util.Scanner;
 public class MainSentient {
     //global variables
@@ -87,6 +84,10 @@ public class MainSentient {
                         //option no
                         jump.val_option();
                     }
+                }
+                if(count==1){
+                    count++;
+                    System.out.println("This will never be printed to the user");
                 }
             }
     }public void nextf(){
